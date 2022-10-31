@@ -1,0 +1,27 @@
+html {
+    background-image: url(background.jpg);
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+body {
+    background-color: white;
+    margin: 0px auto;
+    margin-right: 25%;
+    margin-left: 25%;
+    height: 100%;
+    width: auto;
+}
+img#ercha { 
+margin: auto;
+height: 500px;
+width: 100%;
+}
+img#master {
+margin: auto;
+height: 30%;
+width: 100%;
+}
