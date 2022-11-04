@@ -1,0 +1,39 @@
+html {
+    background-image: url(background.jpg);
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+body {
+    background-color: white;
+    margin: 0px auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 100%;
+    width: auto;
+}
+.slider {
+    height: 800px;
+    width: 800px;
+    margin: 100px auto;
+    padding-left: 20%;
+    background: url(loser\ 2.jpg);
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    25% {
+        background: url(lose.jpg);
+    }
+    50% {
+        background: url(lose\ 2.jpg);
+    }
+    75% {
+        background: url(lose3.jpg);
+    }
+    100% {
+        background: url(lose4.jpg);
+    }
+}
